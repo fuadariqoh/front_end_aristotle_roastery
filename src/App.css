@@ -1,38 +1,253 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* @import url("https://fonts.googleapis.com/css2?family=Teko&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko&display=swap");
+
+@font-face {
+  font-family: "cyberpunk";
+  src: url("./assets/Cyberpunk.ttf") format("truetype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar_color {
+  background-color: #f5ea03;
+  font-size: 25px;
+  height: 50px;
+}
+.navbar_text {
+  color: black;
+  font-family: "cyberpunk";
+  font-size: 20px;
+  white-space: 100;
+}
+.navbar_right_text {
+  color: black;
+  font-family: monospace;
+  background-color: cornflowerblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* .container_home {
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: url("https://i.ytimg.com/vi/PJQKZKPN5go/maxresdefault.jpg");
+} */
+
+.content_home {
+  height: 500px;
+  width: 400px;
+  margin-left: 100px;
+}
+.brand_home {
+  height: 100px;
+  width: 100%;
+  /* text-align: center; */
+  /* align-content: center; */
+  /* justify-items: center; */
+  /* justify-content: center; */
+  /* padding-top: px; */
+  color: yellow;
+  /* font-weight: bolder; */
+}
+
+p {
+  line-height: 10px; /* within paragraph */
+  margin-bottom: 30px;
+  /* color: #f5ea03; */
+  /* background-color: #f5ea03; */
   color: white;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+
+  /* font-family: ; */
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-weight: bolder;
+  font-family: "cyberpunk";
+}
+h2 {
+  font-family: "Bebas Neue", cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-family: sans-serif;
+}
+h5 {
+  font-family: "Teko", sans-serif;
+}
+
+.text_home {
+  /* color: yellowgreen;
+   */
+  /* justify-content: start; */
+  /* display: flex; */
+  background-color: "red";
+}
+.jumbotron_home {
+  height: 100vh;
+  background-image: url("https://i.ytimg.com/vi/PJQKZKPN5go/maxresdefault.jpg");
+
+  color: white;
+  margin-bottom: 0;
+  background-repeat: no-repeat;
+  /* background-size: cover;
+  background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* width: 100%; */
+  padding: 0;
+}
+
+.container1 {
+  width: 100%;
+  height: 50vh;
+  padding: 2px;
+  margin-top: 0;
+  background-color: #23273c;
+}
+
+.container2 {
+  width: 100%;
+  /* height: 600px */
+  height: 700px;
+  padding: 2px;
+  margin-top: 0;
+}
+.containers {
+  background-color: #23273c;
+}
+
+.navbar_background {
+  background-color: white;
+}
+
+.content-box {
+  width: 100vh;
+
+  height: 50vh;
+  /* margin-top: 4px; */
+  background-color: #23273c;
+}
+.settingImage {
+  width: 20vh;
+  height: 20vh;
+}
+
+.card_edit {
+  background-color: transparent;
+}
+
+.container_login {
+  height: 100vh;
+  /* background-color: black; */
+  background-image: url("./assets//pink-and-purple-wallpaper-1616403.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-bottom: 0px !important;
+  margin-bottom: -40px !important;
+  padding-left: 0px !important;
+  margin-left: -40px !important;
+  /* padding-right: 0px !important; */
+  margin-right: -1px !important;
+  /* width: 100vh; */
+}
+.containerz {
+  width: 1000px;
+}
+.Register {
+  width: 50vh;
+}
+
+.paddingatas {
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-image: url("./assets/modern-art-painting-in-white-950241.jpg");
+  background-size: cover;
+}
+.product-detail {
+  border: 1px solid #f8f9fa;
+}
+.border-headerdetail {
+  border-bottom: gray solid 0.5px;
+}
+.font-nameprod {
+  font-size: 30px;
+}
+.font-typographysmall {
+  font-size: 14px;
+}
+.font-typographymed {
+  font-size: 19px;
+}
+.font-harga {
+  font-size: 22px;
+  color: orangered;
+}
+.dropdown1 {
+  width: 100px !important;
+}
+.detail_content {
+  margin-bottom: 100px;
+}
+
+.test1 {
+  height: 100vh;
+}
+
+.box_about {
+  height: 100vh;
+  width: 70%;
+  background-color: "blue";
+  background-image: url("./assets/image3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: -1px;
+}
+
+.box1 {
+  /* height: 50%; */
+
+  width: 30%;
+  background-color: black;
+}
+
+.About_1 {
+  background-image: url("./assets/image2.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  /* background-size: 100vh 100vh; */
+  /* background-size: inherit; */
+  color: white;
+  margin-bottom: 0;
+
+  /* background-size: cover;
+  background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* width: 100%; */
+  padding: 0;
+}
+
+.containers2 {
+  background-color: darkslategray;
+}
+.About2 {
+  height: 100vh;
+  background-image: url("./assets/pexels-photo-2678301.jpeg");
+  /* background-repeat: no-repeat; */
+  /* background-size: 100vh 100vh; */
+  /* background-size: inherit; */
+  color: white;
+  margin-bottom: 0;
+
+  /* background-size: cover;
+  background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* width: 100%; */
+  padding: 0;
 }
